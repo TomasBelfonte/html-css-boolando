@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+head {
+    position: relative;
+}
+
+.nav-container {
+    background-color: #FF612C;
+    display: flex;
+    width: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 14;
+
+}
+
+.nav-bar {
+    display: flex;
+    padding: 10px;
+    width: 920px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-text a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+.nav-logo img {
+    height: 20px;
+}
+
+.cards-container {
+    padding-top: 65px;
+    width: 920px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards-container img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 32%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.img1b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+}
+
+.card:hover .img1b {
+    opacity: 1;
+}
+
+.img2b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+}
+
+.card:hover .img2b {
+    opacity: 1;
+}
+
+.img3b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+}
+
+.card:hover .img3b {
+    opacity: 1;
+}
+
+.img4b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+}
+
+.card:hover .img4b {
+    opacity: 1;
+}
+
+.img5b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+}
+
+.card:hover .img5b {
+    opacity: 1;
+}
+
+.img6b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+}
+
+.card:hover .img6b {
+    opacity: 1;
+}
+
+.card:hover .heart {
+    color: red;
+}
+
+a {
+    color: white;
+}
+
+.brand {
+    font-size: 12px;
+}
+
+.description-item {
+    font-size: 10px;
+}
+
+.price {
+    font-size: 12px;
+    color: red;
+}    
+
+.price2 {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    bottom: 450px;
+    background-color: white;
+    padding: 7px;
+}
+
+.sale_and_description {
+    position: absolute;
+    left: 0;
+    bottom: 89px;
+    padding: 1px 5px;
+}
+
+.sale {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-color: red;
+}
+
+.sale-description {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border-color: green;
+}
+
+.sale-description2 {
+    background-color: green;
+    color: white;
+    font-size: 9px;
+    position: absolute;
+    left: 0px;
+    bottom: 89px;
+    padding: 1px 5px;
+    border-color: green;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-text {
+    color: white;
+    padding: 10px;
+}
+
+.footer-text-description-1 {
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.footer-text-description-2 {
+    font-size: 11px;
+    padding: 3px 0;
+    
+}
+
+.footer-text-description-2 a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.footer_social {
+    color: white;
+}
+
+.footer_social_text {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.footer_social_text a {
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.footer_social_icons {
+    align-items: center;
+    margin-right: 0px;
+    justify-content: space-between;
+}
+
+.footer_social_icons a {
+    background-image: white;
+    color: white;
+}
